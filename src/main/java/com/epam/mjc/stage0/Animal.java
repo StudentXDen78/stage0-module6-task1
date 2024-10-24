@@ -16,7 +16,7 @@ public class Animal {
         String result;
         String fur;
         fur = hasFur ? "a" : "no";
-        result = "This " + "animal is mostly + " + color +". It has + " + numberOfPaws + " paws and " + fur +" fur.";
+        result = "This " + "animal is mostly " + color +". It has " + numberOfPaws + " paws and " + fur +" fur.";
         return result;
     }
 }
